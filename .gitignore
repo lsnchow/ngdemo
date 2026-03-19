@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+dist/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local config and caches
+.npmrc
+.snowflake/
+.v0-trash/
+.vercel/
+.backboard-demo-cache.json
+next.user-config.*
+
+# Generated sandbox files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+
+# OS and editor noise
+.DS_Store
+.cursor/
